@@ -1,0 +1,19 @@
+/* 全体をフルスクリーンにして、中央に配置する */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 100%, 50%); /* 背景色を設定 */
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 86px;
+    color: hsl(0, 0%, 100%);
+}
